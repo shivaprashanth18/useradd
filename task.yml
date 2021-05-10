@@ -1,0 +1,7 @@
+---
+- hosts: all
+  become: true
+  become_method: sudo
+  user: ansible1
+  tasks:
+    - user: name=<shiva> password='$6$5tmg.Mdp$uWHWeu.7LGm.mtiE4xUkWrOe/1xjBWnf1coM/tigb8JXTJnuvcWI6JaMC254MjkntJVfelbBAZJAbEnJoBN5o/'
